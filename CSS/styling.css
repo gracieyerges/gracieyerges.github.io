@@ -1,9 +1,28 @@
 body {
-background-color: #CBC3E3;
+background-color: #FEFBEA;
 }
 h1 {
 text-align:center;
 color: #28112B;
 font-family: "Garamond", serif;
 font-size: 2em;
+}
+l.nav { list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #28112B;
+}
+li.nav { float: right
+}
+li.nav a { font-family: "Garamond", serif;
+font-size: 1.2em;
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li.nav a:hover {
+background-color: #e7accf;
 }

@@ -1,3 +1,9 @@
 body {
-background-color: #D5C6E0;
+background-color: #CBC3E3;
+}
+h1 {
+text-align:center;
+color: #28112B;
+font-family: "Garamond", serif;
+font-size: 2em;
 }

@@ -4,8 +4,28 @@ body {
 h1 {
 text-align:center;
 color: #28112B;
-font-family: "Garmond", serif;
+font-family: "Garamond", serif;
 font-size: 2em;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #28112B
+}
+li.nav {
+  float: right;
+}
+li.nav a {
+  font-family: "Garamond", serif;
+  font-size: 1.2em;
+  display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul.nav {
@@ -22,7 +42,7 @@ li.nav {
 }
 
 li.nav a {
-  font-family: "Garmond", serif;
+  font-family: "Garamond", serif;
   font-size: 1.5em;
   display: block;
   color: white;

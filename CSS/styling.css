@@ -13,7 +13,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #28112B
+  background-color: #5E2838
 }
 li.nav {
   float: right;
@@ -86,11 +86,6 @@ header.mapping {
 }
 
 header.textanalysis {
-  padding-top: 5%;
-  text-align: center;
-}
-
-header.twinegame {
   padding-top: 5%;
   text-align: center;
 }

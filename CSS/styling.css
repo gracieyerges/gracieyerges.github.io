@@ -69,3 +69,28 @@ header.contactinfo {
   padding-top: 5%;
   text-align: center;
 }
+
+header.aiexploration {
+  padding-top: 5%;
+  text-align: center;
+}
+
+header.gamedevelopment {
+  padding-top: 5%;
+  text-align: center;
+}
+
+header.mapping {
+  padding-top: 5%;
+  text-align: center;
+}
+
+header.textanalysis {
+  padding-top: 5%;
+  text-align: center;
+}
+
+header.twinegame {
+  padding-top: 5%;
+  text-align: center;
+}

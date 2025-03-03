@@ -4,7 +4,7 @@ body {
 h1 {
 text-align:center;
 color: #28112B;
-font-family: "Garamond", serif;
+font-family: "times new roman", serif;
 font-size: 2em;
 }
 
@@ -19,7 +19,7 @@ li.nav {
   float: right;
 }
 li.nav a {
-  font-family: "Garamond", serif;
+  font-family: "times new roman", serif;
   font-size: 1.2em;
   display: inline-block;
     color: white;
@@ -42,7 +42,7 @@ li.nav {
 }
 
 li.nav a {
-  font-family: "Garamond", serif;
+  font-family: "times new roman", serif;
   font-size: 1.5em;
   display: block;
   color: white;

@@ -12,8 +12,11 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 25%;
   overflow: hidden;
   background-color: #B54C78
+  height: 100%; /*full height*/
+  position: fixed;
 }
 li.nav {
   float: right;

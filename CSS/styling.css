@@ -14,6 +14,9 @@ ul.nav {
   padding: 0;
   width: 200px;
   background-color: #B54C78;
+  height: 100%
+  position:fixed;
+  overflow: auto;
 }
 
 li.nav a {

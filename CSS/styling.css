@@ -16,7 +16,6 @@ ul.nav {
   background-color: #B54C78;
   height: 100%;
   position: fixed;
-  overflow: auto;
 }
 
 li.nav {

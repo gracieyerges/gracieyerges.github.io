@@ -12,10 +12,8 @@ ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  overflow: hidden;
   background-color: #B54C78;
-  height: 100%;
-  position: fixed;
 }
 
 li.nav {

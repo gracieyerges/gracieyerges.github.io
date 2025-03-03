@@ -8,57 +8,25 @@ font-family: "times new roman", serif;
 font-size: 2em;
 }
 
-ul.nav {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  width: 200px;
   background-color: #B54C78;
 }
 
-li.nav {
-  float: right;
-}
-li.nav a {
-  font-family: "times new roman", serif;
-  font-size: 1.2em;
-  display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.nav {
-    list-style-type: none;
-    background-color: #349eb;
-    position: fixed; /*set the navbar to fixed position*/
-    top: 0; /*Position the navbar at the top of the page*/
-    left: 0;
-    width: 100%;
-}
-
-li.nav {
-    float: right;
-}
-
-li.nav a {
-  font-family: "times new roman", serif;
-  font-size: 1.5em;
+li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 25px;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
-li.nav a:hover {
-  background-color: #1f6099;
-}
-
-ul.nodot {
-  list-style-type: none;
-  margin-left: 8%;
+/*change the link color on hover*/
+li a:hover {
+  background-color: #555;
+  color: white;
 }
 
 header.resume {

@@ -8,6 +8,16 @@ font-family: "times new roman", serif;
 font-size: 2em;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #5E2838;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
 ul.nav {
   list-style-type: none;
   margin: 0;

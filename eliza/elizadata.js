@@ -27,8 +27,7 @@ var elizaQuits = [
 "goodbye",
 "done",
 "exit",
-"quit",
-"finished",
+"quit"
 ];
 
 var elizaPres = [

@@ -95,13 +95,15 @@ var elizaKeywords = [
 
 ["xnone", 0, [
  ["*", [
-     "I'm not sure I understand you fully.",
-     "Please go on.",
-     "What does that suggest to you ?",
-     "Do you feel strongly about discussing such things ?",
-     "That is interesting.  Please continue.",
+     //"I'm not sure I understand you fully.",
+     //"Please go on.",
+     //"What does that suggest to you ?",
+     //"Do you feel strongly about discussing such things ?",
+    // "That is interesting.  Please continue.",
      "Tell me more about that.",
-     "Does talking about this bother you ?"
+     "Does talking about this bother you ?",
+     "Could you repeat that sweetie?",
+     "I'm not sure I understand you sweetheart",
   ]]
 ]],
 ["sorry", 0, [

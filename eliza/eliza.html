@@ -30,7 +30,7 @@ function elizaStep() {
 	}
 	else if (userinput != '') {
 		var usr = 'YOU:   ' + userinput;
-		var rpl ='ELIZA: ' + eliza.transform(userinput);
+		var rpl ='Amanda: ' + eliza.transform(userinput);
 		elizaLines.push(usr);
 		elizaLines.push(rpl);
 		// display nicely
@@ -47,7 +47,7 @@ function elizaStep() {
 	}
 	else if (elizaLines.length == 0) {
 		// no input and no saved lines -> output initial
-		var initial = 'ELIZA: ' + eliza.getInitial();
+		var initial = 'Amanda: ' + eliza.getInitial();
 		elizaLines.push(initial);
 		f.e_display.value = initial + '\n';
 	}
@@ -158,7 +158,7 @@ Data Structures (cf: &quot;elizadata.js&quot;):
          elizaKeywords ......... Array of keywords with decompositions and reasemblies
 
          elizaKeywords elements are of:
-       
+
          [&quot;&lt;key&gt;&quot;, &lt;rank&gt;,
            [
              [ <SPAN STYLE="color: #303030">// first decomposition pattern</SPAN>
@@ -175,9 +175,9 @@ Data Structures (cf: &quot;elizadata.js&quot;):
          keywords with higher rank take precedence.
          decompositions are matched in definition order.
          reasemblies are chosen by random or cycled through if the no-random flag ist set.
- 
+
          the special keyword &quot;xnone&quot; holds the rules for default phrases (no match).
-         
+
          decomposition and reasembly syntax follow the &quot;canonical&quot; form:
 
          decomposition:
@@ -201,7 +201,7 @@ Note:   &quot;elizaPostTransforms&quot; is not a standard ELIZA feature and was 
 	<P>Data representations and syntax follow the &quot;canonical&quot; form.<BR>
 	(Since all data is transformed to and matched as regular expressions, you could also use regexps in the keywords and decompositions. Do not use any &quot;*&quot; expressions in decomposition patterns as &quot;*&quot; will be transformed to a regexp-pattern itself.)<BR>
 	The structure of &quot;elizaKeywords&quot; follows the internal data model as described by J. Weizenbaum in his article <A HREF="#ELIZA">[1]</A>.</P>
- 
+
 	<P>&nbsp;<BR>
 	&quot;elizabot.js&quot; by &copy; Norbert Landsteiner 2005;<BR>
 	mass:werk &#150; media environments &lt;<A HREF="http://www.masswerk.at/" TARGET="_blank">http://www.masswerk.at</A>&gt;.</P>
@@ -213,7 +213,7 @@ Note:   &quot;elizaPostTransforms&quot; is not a standard ELIZA feature and was 
     <P>Compatibility:<BR>
     &quot;elizabot.js&quot; should be compatible to most browsers with support of RegExp (that is all standard browsers).<BR>
    (Version 1.1 doesn't require the support of lambda functions in RegExps any more.)</P>
-	
+
 </TD></TR>
 <TR><TD COLSPAN="2">&nbsp;</TD></TR>
 <TR><TD COLSPAN="2"><B>Download</B>: <A HREF="elizabot.zip">elizabot.zip</A> &nbsp;<SMALL>(ZIP file, 15 KB incl. documentation)</SMALL></TD></TR>

@@ -108,10 +108,12 @@ var elizaKeywords = [
 ]],
 ["sorry", 0, [
  ["*", [
-     "Please don't apologise.",
-     "Apologies are not necessary.",
-     "I've told you that apologies are not required.",
-     "It did not bother me.  Please continue."
+     //"Please don't apologise.",
+    // "Apologies are not necessary.",
+     //"I've told you that apologies are not required.",
+     //"It did not bother me.  Please continue.",
+     "Don't apologize hun",
+     "There's no need to be sorry",
   ]]
 ]],
 ["apologise", 0, [

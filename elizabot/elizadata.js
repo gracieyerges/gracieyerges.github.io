@@ -123,13 +123,15 @@ var elizaKeywords = [
 ]],
 ["remember", 5, [
  ["* i remember *", [
-     "Do you often think of (2) ?",
+    // "Do you often think of (2) ?",
      "Does thinking of (2) bring anything else to mind ?",
-     "What else do you recollect ?",
-     "Why do you remember (2) just now ?",
-     "What in the present situation reminds you of (2) ?",
-     "What is the connection between me and (2) ?",
-     "What else does (2) remind you of ?"
+    // "What else do you recollect ?",
+    // "Why do you remember (2) just now ?",
+    // "What in the present situation reminds you of (2) ?",
+    // "What is the connection between me and (2) ?",
+     //"What else does (2) remind you of ?",
+     "What do you remember about (2)?",
+     "Is it important for you to think about (2)?",
   ]],
  ["* do you remember *", [
      "Did you think I would forget (2) ?",

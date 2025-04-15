@@ -131,38 +131,44 @@ var elizaKeywords = [
     // "What is the connection between me and (2) ?",
      //"What else does (2) remind you of ?",
      "What do you remember about (2)?",
-     "Is it important for you to think about (2)?",
+     "How does remebering (2) make you feel?",
+     "Do you think remembering (2) is actually a good thing?",
   ]],
  ["* do you remember *", [
      "Did you think I would forget (2) ?",
-     "Why do you think I should recall (2) now ?",
+    // "Why do you think I should recall (2) now ?",
      "What about (2) ?",
-     "goto what",
-     "You mentioned (2) ?"
+     //"goto what",
+     //"You mentioned (2) ?",
+     "Of course I remember (2), sweetheart.",
   ]],
  ["* you remember *", [
      "How could I forget (2) ?",
      "What about (2) should I remember ?",
-     "goto you"
+    // "goto you"
   ]]
 ]],
 ["forget", 5, [
  ["* i forget *", [
-     "Can you think of why you might forget (2) ?",
-     "Why can't you remember (2) ?",
+    // "Can you think of why you might forget (2) ?",
+    // "Why can't you remember (2) ?",
      "How often do you think of (2) ?",
      "Does it bother you to forget that ?",
      "Could it be a mental block ?",
-     "Are you generally forgetful ?",
-     "Do you think you are suppressing (2) ?"
+    // "Are you generally forgetful ?",
+    // "Do you think you are suppressing (2) ?",
+    "Aww pumpkin, it's okay to forget (2)",
+    "Eh, it'll come back to you eventually.",
   ]],
  ["* did you forget *", [
      "Why do you ask ?",
      "Are you sure you told me ?",
-     "Would it bother you if I forgot (2) ?",
-     "Why should I recall (2) just now ?",
-     "goto what",
-     "Tell me more about (2)."
+    // "Would it bother you if I forgot (2) ?",
+    // "Why should I recall (2) just now ?",
+     //"goto what",
+     //"Tell me more about (2).",
+     "Am I supposed to remember (2)?",
+     "Well, if you didn't tell me then I wouldn't know.",
   ]]
 ]],
 ["if", 3, [

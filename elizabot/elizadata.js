@@ -173,13 +173,14 @@ var elizaKeywords = [
 ]],
 ["if", 3, [
  ["* if *", [
-     "Do you think it's likely that (2) ?",
-     "Do you wish that (2) ?",
-     "What do you know about (2) ?",
+    // "Do you think it's likely that (2) ?",
+    // "Do you wish that (2) ?",
+    // "What do you know about (2) ?",
      "Really, if (2) ?",
      "What would you do if (2) ?",
-     "But what are the chances that (2) ?",
-     "What does this speculation lead to ?"
+     " Okay, but honey, what are the chances that (2) ?",
+    // "What does this speculation lead to ?",
+    "What are the chances though, you need to think about this realistically, darling.",
   ]]
 ]],
 ["dreamed", 4, [

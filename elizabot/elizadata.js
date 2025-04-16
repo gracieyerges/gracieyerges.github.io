@@ -576,7 +576,7 @@ var elizaKeywords = [
     // "Whether or not you can (2) depends on you more than on me.",
      "Do you want to be able to (2) ?",
     // "Perhaps you don't want to (2).",
-    // "goto what",
+     "goto what",
     "Maybe you don't really want to (2), it's a posibility",
     "It's up to you, peanut",
   ]]
@@ -629,18 +629,24 @@ var elizaKeywords = [
 ]],
 ["why", 0, [
  ["* why don't you *", [
-     "Do you believe I don't (2) ?",
-     "Perhaps I will (2) in good time.",
-     "Should you (2) yourself ?",
-     "You want me to (2) ?",
-     "goto what"
+    // "Do you believe I don't (2) ?",
+    // "Perhaps I will (2) in good time.",
+    // "Should you (2) yourself ?",
+    // "You want me to (2) ?",
+     "goto what",
+     "Why don't I (2)?",
+     "I'm sorry sweetie, but I can't answer that",
+     "Do you really want me to (2)?",
   ]],
  ["* why can't i *", [
-     "Do you think you should be able to (2) ?",
-     "Do you want to be able to (2) ?",
-     "Do you believe this will help you to (2) ?",
-     "Have you any idea why you can't (2) ?",
-     "goto what"
+    // "Do you think you should be able to (2) ?",
+    // "Do you want to be able to (2) ?",
+    // "Do you believe this will help you to (2) ?",
+     //"Have you any idea why you can't (2) ?",
+     "goto what",
+     "I think you should be able to (2)",
+     "I don't see why you can't (2)",
+     "Do you need my help with (2) honey?",
   ]],
  ["*", [
      "goto what"
@@ -648,15 +654,19 @@ var elizaKeywords = [
 ]],
 ["everyone", 2, [
  ["* @everyone *", [
-     "Really, (2) ?",
-     "Surely not (2).",
-     "Can you think of anyone in particular ?",
-     "Who, for example?",
-     "Are you thinking of a very special person ?",
-     "Who, may I ask ?",
-     "Someone special perhaps ?",
-     "You have a particular person in mind, don't you ?",
-     "Who do you think you're talking about ?"
+    // "Really, (2) ?",
+    // "Surely not (2).",
+     //"Can you think of anyone in particular ?",
+    // "Who, for example?",
+    // "Are you thinking of a very special person ?",
+    // "Who, may I ask ?",
+    // "Someone special perhaps ?",
+    // "You have a particular person in mind, don't you ?",
+    // "Who do you think you're talking about ?",
+    "It can't possibly be everyone?",
+    "Don't you think you're blowing this out of proportion?",
+    "Why don't we narrow it down. Who are we really talking about?",
+    "Not everyone (2)",
   ]]
 ]],
 ["everybody", 2, [
@@ -676,22 +686,28 @@ var elizaKeywords = [
 ]],
 ["always", 1, [
  ["*", [
-     "Can you think of a specific example ?",
-     "When ?",
-     "What incident are you thinking of ?",
-     "Really, always ?"
+     //"Can you think of a specific example ?",
+     //"When ?",
+     //"What incident are you thinking of ?",
+     //"Really, always ?",
+     "It can't possibly be always",
+     "Is there is reason why?",
+     "Are you sure it's always?",
   ]]
 ]],
 ["alike", 10, [
  ["*", [
-     "In what way ?",
-     "What resemblence do you see ?",
-     "What does that similarity suggest to you ?",
-     "What other connections do you see ?",
-     "What do you suppose that resemblence means ?",
-     "What is the connection, do you suppose ?",
-     "Could there really be some connection ?",
-     "How ?"
+    // "In what way ?",
+    // "What resemblence do you see ?",
+    // "What does that similarity suggest to you ?",
+    // "What other connections do you see ?",
+    // "What do you suppose that resemblence means ?",
+    // "What is the connection, do you suppose ?",
+    // "Could there really be some connection ?",
+    // "How ?",
+    "How are they alike?",
+    "Do you think there's a reason they're similar?",
+    "Are you sure they're really that similar?",
   ]]
 ]],
 ["like", 10, [
@@ -701,13 +717,15 @@ var elizaKeywords = [
 ]],
 ["different", 0, [
  ["*", [
-     "How is it different ?",
-     "What differences do you see ?",
-     "What does that difference suggest to you ?",
-     "What other distinctions do you see ?",
-     "What do you suppose that disparity means ?",
-     "Could there be some connection, do you suppose ?",
-     "How ?"
+     "But how is it different ?",
+    // "What differences do you see ?",
+     //"What does that difference suggest to you ?",
+     //"What other distinctions do you see ?",
+     //"What do you suppose that disparity means ?",
+    // "Could there be some connection, do you suppose ?",
+     "How ?",
+     "Are you making up these differences?",
+     "Are they really that different?",
   ]]
 ]]
 

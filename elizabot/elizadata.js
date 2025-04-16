@@ -186,79 +186,99 @@ var elizaKeywords = [
 ["dreamed", 4, [
  ["* i dreamed *", [
      "Really, (2) ?",
-     "Have you ever fantasized (2) while you were awake ?",
-     "Have you ever dreamed (2) before ?",
-     "goto dream"
+    // "Have you ever fantasized (2) while you were awake ?",
+    // "Have you ever dreamed (2) before ?",
+    // "goto dream",
+    "Are you a daydreamer?",
+    "It's good to have dreams",
   ]]
 ]],
 ["dream", 3, [
  ["*", [
-     "What does that dream suggest to you ?",
-     "Do you dream often ?",
-     "What persons appear in your dreams ?",
-     "Do you believe that dreams have something to do with your problem ?"
+    // "What does that dream suggest to you ?",
+     //"Do you dream often ?",
+     //"What persons appear in your dreams ?",
+    // "Do you believe that dreams have something to do with your problem ?",
+    "Do you think your dream is trying to tell you something?",
+    "Who do you see in your dreams? Anyone important?",
+    "Are your dreams causing you problems?",
   ]]
 ]],
 ["perhaps", 0, [
  ["*", [
-     "You don't seem quite certain.",
-     "Why the uncertain tone ?",
-     "Can't you be more positive ?",
-     "You aren't sure ?",
-     "Don't you know ?",
-     "How likely, would you estimate ?"
+    // "You don't seem quite certain.",
+    // "Why the uncertain tone ?",
+    // "Can't you be more positive ?",
+    // "You aren't sure ?",
+    // "Don't you know ?",
+     //"How likely, would you estimate ?"
+     "Are you sure, sweetie?",
+     "I wish you would be more positive",
+     "Is that really realistic?",
   ]]
 ]],
 ["name", 15, [
  ["*", [
-     "I am not interested in names.",
-     "I've told you before, I don't care about names -- please continue."
+    // "I am not interested in names.",
+    // "I've told you before, I don't care about names -- please continue."
+    "I make no promises that I will remember that name",
+    "I'll try to remember that name",
   ]]
 ]],
 ["deutsch", 0, [
  ["*", [
      "goto xforeign",
-     "I told you before, I don't understand German."
+    // "I told you before, I don't understand German."
+    "I'm sorry darling, I don't speak German",
   ]]
 ]],
 ["francais", 0, [
  ["*", [
      "goto xforeign",
-     "I told you before, I don't understand French."
+    // "I told you before, I don't understand French."
+    "I'm sorry pumpkin, I don't speak French",
+
   ]]
 ]],
 ["italiano", 0, [
  ["*", [
      "goto xforeign",
-     "I told you before, I don't understand Italian."
+    // "I told you before, I don't understand Italian."
+    "I'm sorry sweetheart, I don't speak Italian",
   ]]
 ]],
 ["espanol", 0, [
  ["*", [
      "goto xforeign",
-     "I told you before, I don't understand Spanish."
+    // "I told you before, I don't understand Spanish."
+    "I'm sorry buttercup, I don't speak Spanish",
   ]]
 ]],
 ["xforeign", 0, [
  ["*", [
-     "I speak only English."
+     //"I speak only English."
+     "I only know English, sorry",
   ]]
 ]],
 ["hello", 0, [
  ["*", [
-     "How do you do.  Please state your problem.",
-     "Hi.  What seems to be your problem ?"
+    // "How do you do.  Please state your problem.",
+     //"Hi.  What seems to be your problem ?"
+     "Hi honey, what's up?",
+     "How are you honeybun?",
   ]]
 ]],
 ["computer", 50, [
  ["*", [
-     "Do computers worry you ?",
-     "Why do you mention computers ?",
-     "What do you think machines have to do with your problem ?",
-     "Don't you think computers can help people ?",
-     "What about machines worries you ?",
-     "What do you think about machines ?",
-     "You don't think I am a computer program, do you ?"
+    // "Do computers worry you ?",
+    // "Why do you mention computers ?",
+    // "What do you think machines have to do with your problem ?",
+     //"Don't you think computers can help people ?",
+     //"What about machines worries you ?",
+     //"What do you think about machines ?",
+     //"You don't think I am a computer program, do you ?",
+     "What about computers?",
+     "Do you really think computers are your problem?",
   ]]
 ]],
 ["am", 0, [

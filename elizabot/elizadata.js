@@ -279,15 +279,19 @@ var elizaKeywords = [
      //"You don't think I am a computer program, do you ?",
      "What about computers?",
      "Do you really think computers are your problem?",
+     "Do computers scare you?",
   ]]
 ]],
 ["am", 0, [
  ["* am i *", [
-     "Do you believe you are (2) ?",
-     "Would you want to be (2) ?",
-     "Do you wish I would tell you you are (2) ?",
-     "What would it mean if you were (2) ?",
-     "goto what"
+     //"Do you believe you are (2) ?",
+     //"Would you want to be (2) ?",
+    // "Do you wish I would tell you you are (2) ?",
+    // "What would it mean if you were (2) ?",
+    // "goto what",
+    "Do you want to be (2)?",
+    "Would being (2) make you happy?",
+    "But is being (2) really going to benefit you?",
   ]],
  ["* i am *", [
      "goto i"

@@ -291,127 +291,166 @@ var elizaKeywords = [
     // "goto what",
     "Do you want to be (2)?",
     "Would being (2) make you happy?",
-    "But is being (2) really going to benefit you?",
+    "But is being (2) really going to be good for you?",
   ]],
  ["* i am *", [
      "goto i"
   ]],
  ["*", [
-     "Why do you say 'am' ?",
-     "I don't understand that."
+    // "Why do you say 'am' ?",
+    // "I don't understand that.",
+    "Could you repeat that darling?",
+    "Am? Why not was or will be?",
   ]]
 ]],
 ["are", 0, [
  ["* are you *", [
-     "Why are you interested in whether I am (2) or not ?",
-     "Would you prefer if I weren't (2) ?",
-     "Perhaps I am (2) in your fantasies.",
-     "Do you sometimes think I am (2) ?",
-     "goto what",
-     "Would it matter to you ?",
-     "What if I were (2) ?"
+    // "Why are you interested in whether I am (2) or not ?",
+    // "Would you prefer if I weren't (2) ?",
+    // "Perhaps I am (2) in your fantasies.",
+    // "Do you sometimes think I am (2) ?",
+    // "goto what",
+    // "Would it matter to you ?",
+    // "What if I were (2) ?",
+    "Do you want me to be (2)?",
+    "I can't be (2), sorry sweetheart",
+    "Would you be hurt if I was (2)?",
   ]],
  ["* you are *", [
      "goto you"
   ]],
  ["* are *", [
-     "Did you think they might not be (2) ?",
-     "Would you like it if they were not (2) ?",
-     "What if they were not (2) ?",
-     "Are they always (2) ?",
-     "Possibly they are (2).",
-     "Are you positive they are (2) ?"
+    // "Did you think they might not be (2) ?",
+    // "Would you like it if they were not (2) ?",
+    // "What if they were not (2) ?",
+    // "Are they always (2) ?",
+    // "Possibly they are (2).",
+     //"Are you positive they are (2) ?",
+     "What would happen if they weren't (2)?",
+     "Does everyone agree that they're (2)?",
+     "Are you hurt that they are (2)?",
+
   ]]
 ]],
 ["your", 0, [
  ["* your *", [
-     "Why are you concerned over my (2) ?",
-     "What about your own (2) ?",
-     "Are you worried about someone else's (2) ?",
-     "Really, my (2) ?",
-     "What makes you think of my (2) ?",
-     "Do you want my (2) ?"
+     //"Why are you concerned over my (2) ?",
+    // "What about your own (2) ?",
+    // "Are you worried about someone else's (2) ?",
+    // "Really, my (2) ?",
+  //   "What makes you think of my (2) ?",
+    // "Do you want my (2) ?",
+    "Don't worry about my (2)",
+    "Honey we're talking about you, not my (2)",
+    "Why don't we focus on your (2)?",
   ]]
 ]],
 ["was", 2, [
  ["* was i *", [
-     "What if you were (2) ?",
-     "Do you think you were (2) ?",
-     "Were you (2) ?",
-     "What would it mean if you were (2) ?",
-     "What does ' (2) ' suggest to you ?",
-     "goto what"
+     //"What if you were (2) ?",
+     //"Do you think you were (2) ?",
+     //"Were you (2) ?",
+     //"What would it mean if you were (2) ?",
+     //"What does ' (2) ' suggest to you ?",
+     "goto what",
+     "And if you were (2)?",
+     "Would being (2) really help you?",
+     "I know you want to be (2), but is it really a good idea?",
   ]],
  ["* i was *", [
      "Were you really ?",
-     "Why do you tell me you were (2) now ?",
-     "Perhaps I already know you were (2)."
+    // "Why do you tell me you were (2) now ?",
+    // "Perhaps I already know you were (2).",
+    "Why are you just now telling me this?",
+    "Did you like being (2)?",
+
   ]],
  ["* was you *", [
-     "Would you like to believe I was (2) ?",
-     "What suggests that I was (2) ?",
+     //"Would you like to believe I was (2) ?",
+     //"What suggests that I was (2) ?",
      "What do you think ?",
-     "Perhaps I was (2).",
-     "What if I had been (2) ?"
+    // "Perhaps I was (2).",
+     //"What if I had been (2) ?",
+     "And what if I was (2)?",
+     "It doesn't matter if I was (2), we're talking about you, not me",
   ]]
 ]],
 ["i", 0, [
  ["* i @desire *", [
-     "What would it mean to you if you got (3) ?",
-     "Why do you want (3) ?",
-     "Suppose you got (3) soon.",
-     "What if you never got (3) ?",
-     "What would getting (3) mean to you ?",
-     "What does wanting (3) have to do with this discussion ?"
+    // "What would it mean to you if you got (3) ?",
+    // "Why do you want (3) ?",
+    // "Suppose you got (3) soon.",
+    // "What if you never got (3) ?",
+    // "What would getting (3) mean to you ?",
+    // "What does wanting (3) have to do with this discussion ?",
+    "I know you want (3), but try to be realistic here",
+    "Why do you want (3) so much pumpkin?",
+    "Would it mean the world if you got (3)?",
   ]],
  ["* i am* @sad *", [
-     "I am sorry to hear that you are (3).",
-     "Do you think coming here will help you not to be (3) ?",
-     "I'm sure it's not pleasant to be (3).",
-     "Can you explain what made you (3) ?"
+    // "I am sorry to hear that you are (3).",
+    // "Do you think coming here will help you not to be (3) ?",
+     //"I'm sure it's not pleasant to be (3).",
+    // "Can you explain what made you (3) ?",
+    "Why are you (3) pumpkin?",
+    "Anything I can help with?",
+    "I'm sorry you're feeling that way",
   ]],
  ["* i am* @happy *", [
-     "How have I helped you to be (3) ?",
-     "Has your treatment made you (3) ?",
-     "What makes you (3) just now ?",
-     "Can you explain why you are suddenly (3) ?"
+    // "How have I helped you to be (3) ?",
+    // "Has your treatment made you (3) ?",
+     //"What makes you (3) just now ?",
+     //"Can you explain why you are suddenly (3) ?",
+     "What's making you (3) sweetheart?",
+     "I'm glad you're feeling (3)",
   ]],
  ["* i was *", [
      "goto was"
   ]],
  ["* i @belief i *", [
-     "Do you really think so ?",
-     "But you are not sure you (3).",
-     "Do you really doubt you (3) ?"
+     "Do you really think so darling ?",
+    // "But you are not sure you (3).",
+    // "Do you really doubt you (3) ?",
+    "Don't doubt you (3)",
   ]],
  ["* i* @belief *you *", [
      "goto you"
   ]],
  ["* i am *", [
-     "Is it because you are (2) that you came to me ?",
-     "How long have you been (2) ?",
-     "Do you believe it is normal to be (2) ?",
-     "Do you enjoy being (2) ?",
-     "Do you know anyone else who is (2) ?"
+    // "Is it because you are (2) that you came to me ?",
+    // "How long have you been (2) ?",
+     //"Do you believe it is normal to be (2) ?",
+     //"Do you enjoy being (2) ?",
+    // "Do you know anyone else who is (2) ?",
+    "Is it normal for you to be (2)?",
+    "Are any of your friends (2)?",
+    "Do you like being (2)? Your happiness in being (2) is what is important",
   ]],
  ["* i @cannot *", [
-     "How do you know that you can't (3) ?",
-     "Have you tried ?",
-     "Perhaps you could (3) now.",
-     "Do you really want to be able to (3) ?",
-     "What if you could (3) ?"
+     //"How do you know that you can't (3) ?",
+     "But have you tried?",
+    // "Perhaps you could (3) now.",
+     //"Do you really want to be able to (3) ?",
+     //"What if you could (3) ?",
+     "Don't doubt that you can (3)",
+     "You should believe in yourself. You should try to (3)",
   ]],
  ["* i don't *", [
-     "Don't you really (2) ?",
-     "Why don't you (2) ?",
-     "Do you wish to be able to (2) ?",
-     "Does that trouble you ?"
+    // "Don't you really (2) ?",
+     "Why don't you (2) darling?",
+     //"Do you wish to be able to (2) ?",
+    // "Does that trouble you ?",
+    "Are you sure you don't want to (2)?",
+    "Is there a reason you don't want to (2)?",
   ]],
  ["* i feel *", [
-     "Tell me more about such feelings.",
-     "Do you often feel (2) ?",
-     "Do you enjoy feeling (2) ?",
-     "Of what does feeling (2) remind you ?"
+     //"Tell me more about such feelings.",
+     //"Do you often feel (2) ?",
+     //"Do you enjoy feeling (2) ?",
+     //"Of what does feeling (2) remind you ?",
+     "Why are you feeling (2) sweetheart?",
+     "Do you feel (2) a lot?",
+     "How do you deal with these feelings?",
   ]],
  ["* i * you *", [
      "Perhaps in your fantasies we (2) each other.",
